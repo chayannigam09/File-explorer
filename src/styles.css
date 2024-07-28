@@ -1,0 +1,60 @@
+.file-tree {
+    width: 300px;
+    padding: 10px;
+    /* border-right: 1px solid #ccc;
+    height: 100vh;
+    overflow-y: auto; */
+    float: left;
+  }
+  
+  .file-explorer{
+    background: #2d2b2b;
+    color: #c9c3c3;
+  }
+  .tree-node {
+    margin-left: 20px;
+  }
+  
+  .tree-item {
+    cursor: pointer;
+  }
+  
+  .tree-children {
+    margin-left: 20px;
+  }
+  
+  .file-view {
+    margin-left: 320px; /* Adjust according to the width of your file tree */
+    /* padding: 20px; */
+    height: 100%;
+    overflow-y: auto;
+  }
+  
+  .monaco-editor-wrapper {
+    height: 90vh;
+  }
+  
+  button {
+    margin-top: 10px;
+  }
+  .context-menu {
+    position: absolute;
+    background: white;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    z-index: 1000;
+  }
+  
+  .context-menu button {
+    display: block;
+    width: 100%;
+    padding: 8px 12px;
+    border: none;
+    background: white;
+    cursor: pointer;
+  }
+  
+  .context-menu button:hover {
+    background: #f0f0f0;
+  }
+  
